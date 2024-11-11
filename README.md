@@ -36,3 +36,18 @@ This is a console-based Banking Application built in Java, designed to simulate 
 3. **`Transaction`**: Represents individual transactions with a unique ID, date, type, and amount.
 4. **`BankingApp`**: The main driver class for handling user interaction, managing menus, and invoking relevant features.
 
+## Workflow
+
+- **Register** a new user with a unique username and password.
+- **Login** with registered credentials.
+- **Open** an account by providing account holder details, account type, and initial deposit.
+- **Deposit** or **withdraw** funds as desired.
+- **Check balance** or view statement for transaction history.
+- **Add monthly interest** to savings accounts (automated calculation).
+- **Logout** to end the session.
+
+## How to Run
+
+1. **Compile all classes**:
+   ```bash
+   javac *.java
